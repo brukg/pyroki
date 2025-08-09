@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>pyroki</name>
+  <version>0.0.0</version>
+  <description>Python Robot Kinematics Library - A modular, extensible, and cross-platform toolkit for kinematic optimization</description>
+  
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+  
+  <url type="website">https://pyroki-toolkit.github.io/</url>
+  <url type="bugtracker">https://github.com/chungmin99/pyroki/issues</url>
+  <url type="repository">https://github.com/chungmin99/pyroki</url>
+  <url type="repository">https://github.com/brukg/pyroki</url>
+  
+  
+  <author email="your.email@example.com">Chung Min Kim</author>
+  <author email="your.email@example.com">Brent Yi</author>
+  
+  <!-- Build dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>urdf</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>controller_manager_msgs</depend>
+  
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
